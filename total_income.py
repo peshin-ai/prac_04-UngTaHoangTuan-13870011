@@ -9,7 +9,8 @@ def main():
     months = int(input("How many months? "))
 
     for month in range(1, months + 1):
-        income = float(input("Enter income for month " + str(month) + ": "))
+        #TODO: the string format() method instead of string concatenation (+).
+        income = float(input("Enter income for month {} :".format(month)))
         incomes.append(income)
 
     print("\nIncome Report\n-------------")
