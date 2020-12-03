@@ -15,6 +15,7 @@ def main():
     print(numbers + [6, 5, 3])                  #[3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
 
     # TODO: Get all the elements from numbers except the first two (slice)
-    numbers.
+    print(numbers[2:])                          #[4, 1, 5, 9, 1]
+    print(9 in numbers)                         #True
 if __name__ == '__main__':
     main()
