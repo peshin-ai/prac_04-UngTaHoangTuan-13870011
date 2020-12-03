@@ -29,7 +29,7 @@ print(a_names)
 
 # TODO: use a list comprehension to create a list of all of the full_names
 # in lowercase format
-lowercase_full_names =[]
+lowercase_full_names = []
 for i in full_names:
     lowercase_full_names.append(i.lower())
 print(lowercase_full_names)
