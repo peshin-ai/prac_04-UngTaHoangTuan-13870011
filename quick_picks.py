@@ -25,9 +25,6 @@ def main():
     CONSTANTS = []
     for i in range(Number):
 
-        for j in range(6):
-            Raw.append(random.randint(1, 45))
-            Raw.sort()
         while Check(Raw) < 6:
             Raw.append(random.randint(1, 45))
             Raw.sort()
